@@ -75,11 +75,11 @@ div .box-contact-me{
 
 
 .box-information-receita{
-    display: flex;
+    display: grid;
     padding: 10px;
     border: 2px solid black;
     flex-direction: column;
-    align-items: center;
+    place-items: center;
 }
 
 .box-receitas li{
@@ -87,6 +87,5 @@ div .box-contact-me{
     align-items: center;
     display: flex;
     flex-direction: column;
-    
 }
 
