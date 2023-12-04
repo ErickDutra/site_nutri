@@ -89,3 +89,25 @@ div .box-contact-me{
     flex-direction: column;
 }
 
+.menu{
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    padding: 25px;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li{
+    align-items: center;
+    font-size: 25px;
+}
+.box-itens{
+    padding-top: 80px;
+}
