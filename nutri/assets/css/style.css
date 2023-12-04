@@ -15,6 +15,28 @@ header{
     padding: 1%;
     border: 2px solid black;
     border-radius: 15px;
+    font-size: 30px;
+}
+
+.menu{
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu li{
+    align-items: center;
+    font-size: 25px;
+}
+.box-itens{
+    padding-top: 80px;
 }
 
 section .box-about-me{
@@ -58,56 +80,34 @@ div .box-contact-me{
     border-radius: 10px;
 }
 
-.box-receita{
-    margin: 30px;
-    border: 2px solid black;
-    padding: 300px;
-    display: flex;
-}
-
-
-.receitas{
-    display: flex;
-    justify-content: space-around;
-    border: 2px solid black;
-    margin: 30px;
-}
-
-
 .box-information-receita{
-    display: grid;
-    padding: 10px;
     border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    place-items: center;
+}
+
+.box-information-receita h2{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-receitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 
 .box-receitas li{
-    padding: 50px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    min-width: 100px;
 }
 
-.menu{
-    background-color: grey;
-    position: fixed;
-    width: 100%;
+.box-receitas img{
+    border-radius: 10px;
 }
 
-.menu ul{
-    display: flex;
-    padding: 25px;
-    
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.menu li{
-    align-items: center;
-    font-size: 25px;
-}
-.box-itens{
-    padding-top: 80px;
-}
